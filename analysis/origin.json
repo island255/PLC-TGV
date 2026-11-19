@@ -1,0 +1,134 @@
+{
+  "st_syntax.py": {
+    "original": "源码工作/方法与实验/review_revision_20261105/parser_snapshot.py",
+    "original_sha256": "58717a543378c531265e030a514b0929c44c631778813ac28c11a9e508980f59",
+    "definitions": [
+      {
+        "name": "TOKEN",
+        "first": 17,
+        "last": 17
+      },
+      {
+        "name": "PRECEDENCE",
+        "first": 18,
+        "last": 20
+      },
+      {
+        "name": "tokens",
+        "first": 23,
+        "last": 34
+      },
+      {
+        "name": "Expression",
+        "first": 37,
+        "last": 68
+      },
+      {
+        "name": "expression",
+        "first": 71,
+        "last": 76
+      },
+      {
+        "name": "Program",
+        "first": 79,
+        "last": 213
+      },
+      {
+        "name": "properties_ast",
+        "first": 216,
+        "last": 228
+      },
+      {
+        "name": "names",
+        "first": 269,
+        "last": 276
+      }
+    ],
+    "adaptation": "Only the parser, initial-state, property and expression code is included. The subclass from typed_scalar.py implements expression evaluation and one-scan execution."
+  },
+  "scalar_model.py": {
+    "original": "源码工作/方法与实验/review_revision_20261105/typed_scalar.py",
+    "original_sha256": "4f7c5b9c055893449a3732d02ca75f663613c5a852c00abafda61b7df11bd1f0",
+    "definitions": [
+      {
+        "name": "WIDTHS",
+        "first": 6,
+        "last": 6
+      },
+      {
+        "name": "Unsupported",
+        "first": 9,
+        "last": 10
+      },
+      {
+        "name": "ScalarFault",
+        "first": 13,
+        "last": 14
+      },
+      {
+        "name": "wrap",
+        "first": 17,
+        "last": 25
+      },
+      {
+        "name": "checked",
+        "first": 28,
+        "last": 32
+      },
+      {
+        "name": "infer",
+        "first": 35,
+        "last": 47
+      },
+      {
+        "name": "evaluate",
+        "first": 50,
+        "last": 96
+      },
+      {
+        "name": "assignments",
+        "first": 99,
+        "last": 104
+      },
+      {
+        "name": "TypedProgram",
+        "first": 107,
+        "last": 153
+      }
+    ]
+  },
+  "scan_cfg.py": {
+    "original": "源码工作/方法与实验/review_revision_20261105/affine_candidates.py",
+    "original_sha256": "d28db7d48ddc08a2fcd71f351cf91e179c172e8eaf8b79a74787a31b82117c14",
+    "definitions": [
+      {
+        "name": "ScanNode",
+        "first": 31,
+        "last": 37
+      },
+      {
+        "name": "build_scan_cfg",
+        "first": 40,
+        "last": 76
+      },
+      {
+        "name": "assignment_dependencies",
+        "first": 79,
+        "last": 96
+      }
+    ],
+    "property_dependencies": "Body of the backward closure in affine_candidates.structure; property root set supplied as an argument."
+  },
+  "state_check.py": {
+    "original": "源码工作/方法与实验/review_revision_20261105/parser_snapshot.py",
+    "original_sha256": "58717a543378c531265e030a514b0929c44c631778813ac28c11a9e508980f59",
+    "definitions": [
+      {
+        "name": "closure",
+        "first": 231,
+        "last": 266
+      }
+    ],
+    "adaptation": "The original explicit-state audit worklist is preserved. Only retained states are stored. The proof/violation/cap outcomes contain counts rather than a sequence or final state. Boolean property type is checked."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "component": "PLCopen POU, variable, ST and LD structural reader",
+  "provenance": "Independent reimplementation reused by the PLC-TGV XML analysis path",
+  "evaluated_call_sites": [
+    "no_time_limit_20261113/run.py: own_worker calls the released property analysis for public tasks",
+    "source_unified_release_20261023/runner.py: worker calls ours_iteration_v3.analyze_original for public tasks",
+    "工作复现/defuser_full_repro_20261015/symbolic.py: Translator.__init__ invokes plcdefuser.plcopen.parse_plcopen",
+    "工作复现/defuser_completion_20261015/concrete.py: Concrete.__init__ invokes the same reader",
+    "工作复现/defuser_completion_20261015/bootstrap.py adds the copied reader package to the import search path"
+  ],
+  "scope": "Static reader used by the XML translator and concrete interpreter when those routes are invoked. Other paths in the 977 public tasks can finish earlier. The CLI reports LD wiring, ST syntax categories and unrepresented structures; it does not decide properties, model scan order, or reproduce the end-to-end verifier.",
+  "files": {
+    "plcdefuser/__init__.py": {
+      "source": "工作复现/plc_defuser_reimplementation/src/plcdefuser/__init__.py",
+      "sha256": "d978dcd4686a3f7f7b20d3bce63e685b54f27702f44c63d4240d5ff342783071",
+      "byte_identical": true
+    },
+    "plcdefuser/model.py": {
+      "source": "工作复现/plc_defuser_reimplementation/src/plcdefuser/model.py",
+      "sha256": "f8c59daa7e50a1f07ca57137e2638ec18b8697d3e07c06923ae73a8cc93ce517",
+      "byte_identical": true
+    },
+    "plcdefuser/plcopen.py": {
+      "source": "工作复现/plc_defuser_reimplementation/src/plcdefuser/plcopen.py",
+      "sha256": "790e56ea79cec10a708aca7754ad7daecaaded3817ad83c3aca930de71bf092b",
+      "byte_identical": true
+    },
+    "plcdefuser/st_parser.py": {
+      "source": "工作复现/plc_defuser_reimplementation/src/plcdefuser/st_parser.py",
+      "sha256": "1c1c6b3ace1aae09e51681bc485b8adeed9e1e3e348fc3dd73cac917b1f5e0cc",
+      "byte_identical": true
+    }
+  }
+}

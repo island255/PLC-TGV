@@ -1,0 +1,436 @@
+[
+  {
+    "id": "conditional__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "21faaa457c91c8f47dfd112293e85f1eaf54437133d951cd6a8533ae1612e568",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "7be3d958c6d67b4eb9d89d1c73e1b9496e15d4ceff5afe7a9f24fdea23070995",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "7be3d958c6d67b4eb9d89d1c73e1b9496e15d4ceff5afe7a9f24fdea23070995",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 7351.985516600002,
+    "original_record_sha256": "1e897a13d781066e2b0e7df06d015d6dd2270c500b25efaa59754a456998477d"
+  },
+  {
+    "id": "conditional__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "7d169ba5835abb78e1017c49cfddbbfbfa77805ecbc898685431bef803fa6665",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5122613000003184,
+    "original_record_sha256": "b44817a35c2932c0f47ac80a546855952cd06c96f02d9810738f1eab78001fd9"
+  },
+  {
+    "id": "countdown__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "6164ca8bcf7dccc1a98d8ee59ffc6d76ffa2150ac6dacdc139a1f7bd6d7f529a",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "0e5f464e6ee6fcb590ad7904b7633762bab98eb6a907dc92c87fb90d249a4841",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "0e5f464e6ee6fcb590ad7904b7633762bab98eb6a907dc92c87fb90d249a4841",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 1628.4200266999978,
+    "original_record_sha256": "f7e881e8a4d5c5ea91be671f363031613c4cd500645d0fa345aeb085ceb126c1"
+  },
+  {
+    "id": "countdown__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "26c834bd45c3a9dcd63aa9809f49ac433b7e2429d3650b64128ed1903670c4ea",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5252658999997948,
+    "original_record_sha256": "99316f96326a2ad85af19a02048dcc5f8e2439a6dbb011912d4476d51ace9833"
+  },
+  {
+    "id": "ext__retained_000",
+    "dataset": 3,
+    "hashes": {
+      "source": "b1db6478bc5e99acd8d223ba00f55c1b28b14573d3a9fd9b05941cc954fde8b7",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "b24e19ae33c7b94c34b3881fe8018e3bc355802475e21cf5bb84b5803ca6d1e7",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "a56ff5daad9ac99001da2ca8cd5e2b0ec2fe0b6aa03136a2b9b3b305843b2484",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "a56ff5daad9ac99001da2ca8cd5e2b0ec2fe0b6aa03136a2b9b3b305843b2484",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 25.3741609,
+    "original_record_sha256": "945f7d1dcb02e753492c9c4dd8a19ffaeff2ed59f87f03a3d52a220f33053463"
+  },
+  {
+    "id": "ext__retained_001",
+    "dataset": 3,
+    "hashes": {
+      "source": "7fa5336d6122db560d6b29c64035db6c70d98b62bb5dc99b3b6c1f3ce49d3f24",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "20d185de39ee9b8f5647658ec8808200ee08f33e24ab045a97b1a73d34c5ed43",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "d351a81076c8d7bf19ebe45d22ff51f6f3e6fcdaecdcdc44ecbc412eb827df4b",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "d351a81076c8d7bf19ebe45d22ff51f6f3e6fcdaecdcdc44ecbc412eb827df4b",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 1479.5737725,
+    "original_record_sha256": "599b2cd662cd0974217f48dad5a75f5f59dcfeaaa1de99b4c262ba795debe8fe"
+  },
+  {
+    "id": "ext__retained_002",
+    "dataset": 3,
+    "hashes": {
+      "source": "7772e5b106b2abb7201e121e4d3e1a2c06d887c0243960ab02da9f2b7be73d1c",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "b62d3e11ba4ee3e93a6a4e313a5ccf148fe62db84837efd17aae5f4164651723",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "ERROR"
+    },
+    "seconds": 3487.8173031000006,
+    "original_record_sha256": "9f2c6cd2101cef4d6ec0e38a3f075630e9d18fe8b3768fc596a5072233fed6e6"
+  },
+  {
+    "id": "ext__retained_003",
+    "dataset": 3,
+    "hashes": {
+      "source": "a392ba26859414f31e10ca702e2b71252b12b8b23b728acb4877a4575df766b2",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "927d3f9c65c011a30ecfb890b6ce445bc857da7010b732bda08e515e3fb23dc1",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "ERROR"
+    },
+    "seconds": 3494.2942598,
+    "original_record_sha256": "139e772ace9d8015907b5bf13ea9471d6753335dcb5ed1d4e65fd9e2c474bf49"
+  },
+  {
+    "id": "ext__retained_004",
+    "dataset": 3,
+    "hashes": {
+      "source": "da458368ae225c8a39a8e7d1d36c356b51cacfdd3200c429690c7335c7ae839f",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "c259eb30f6aa76437d0d7b7a7c082f3836469af46b9509a3dc12aebdb3521764",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "ERROR"
+    },
+    "seconds": 2039.2977126999995,
+    "original_record_sha256": "13a4a7f032f4df06eae63b929391189ff140fb4b3b734c30f0ce397ede2fa5d7"
+  },
+  {
+    "id": "extra_state__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "cd50eb62387b18d65d5b6dee8fa749d20e0753ca6e81501a7c85ed95b7f85cd1",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "7134f1711a2605f3067932ea1abdec117f75d058d287b8591e738cefa92fc8b7",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "7134f1711a2605f3067932ea1abdec117f75d058d287b8591e738cefa92fc8b7",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 1857.2163667999994,
+    "original_record_sha256": "8e5d93dc9e365fd97f16f9afb112876208f7b45f6cef299468d2f66a7e231bae"
+  },
+  {
+    "id": "extra_state__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "32beeaa31395b7b3e74d58297c8c2970eb9147ab4860005566f9318b08400f2f",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.501689400000032,
+    "original_record_sha256": "3dfb6b55d4b3133ed8074248e9b8a46d2d09499ae062144981c37b353a47e0ea"
+  },
+  {
+    "id": "nested__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "82174097eb0b3be2dbb4bcdce04238c9598291627238039ab2ea269fd9f65aea",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "119cd94e309023075a152a4e6aaa8268f7bba0d833689403139a23480c192b64",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "119cd94e309023075a152a4e6aaa8268f7bba0d833689403139a23480c192b64",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 9770.420443400002,
+    "original_record_sha256": "7de4fc3f820f0f50be21b2f1c576e55351950e697f0ea33ac711b14a918621e8"
+  },
+  {
+    "id": "nested__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "8b356501a8eecfffa4f266a4bc07d9833654f1e123142988392fd6ab2211a6a7",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5009609999997338,
+    "original_record_sha256": "17f75b1a4cab7b4ac2f4445d2a7f9d8bfb19c809ae29d631414714bd9cc6fa5d"
+  },
+  {
+    "id": "nonzero__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "fa7b216eb4cc9f5c9d2dea01e03b8df7b5e1cf98a678cbd934f77b2da9bb9dc7",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "b693a3ca2fcc491bc1a4d33166996803d72975fee11a4c1029af2327f1411361",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "b693a3ca2fcc491bc1a4d33166996803d72975fee11a4c1029af2327f1411361",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 2301.525061800001,
+    "original_record_sha256": "f2d3df252b1ec0be511bdc257097c7ffe91a34053f1b5040135bdb80473e1285"
+  },
+  {
+    "id": "nonzero__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "acc14aabaaf2de3565c72134c237dafb0781e78bcdf3e9cf2490b53c7b56d3d2",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5095317999985127,
+    "original_record_sha256": "59a254ca6a6ee3137290002c67adbdd0b8affacee37575846318ef18f3cc602b"
+  },
+  {
+    "id": "reset__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "fd603c1057f20506866b4266c54870fb90e44022301d35b6429293014f292830",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "a58ada15c5bbd3c05f8cc3817775a369cb8db3895ecfbd88129fbac8969a53f3",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "a58ada15c5bbd3c05f8cc3817775a369cb8db3895ecfbd88129fbac8969a53f3",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 4880.344348400002,
+    "original_record_sha256": "a26c5bda6bd785e85e21220becdaee53ee0e2e258f93ccad375c7e140d42b690"
+  },
+  {
+    "id": "reset__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "f02c8b44a1838aae2052a63e7cd97a7b47d302e870163175d57509cebb000ccf",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5473111000010249,
+    "original_record_sha256": "b491913057eda71335b58596cf39357f1b9ad392bef228e5a85a75e238d445a5"
+  },
+  {
+    "id": "stride__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "34c4ef4ce940758d683ba09d902be14b71d29e5298180922959f34ab87f94cba",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [],
+      "symbolic_replays": [
+        {
+          "trace": "e999ec1dda278e14694f9637186b47d0393fe7d41422011939b53a9c6c8eea24",
+          "replay": {
+            "confirmed": true
+          }
+        },
+        {
+          "trace": "e999ec1dda278e14694f9637186b47d0393fe7d41422011939b53a9c6c8eea24",
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ]
+    },
+    "seconds": 1845.0459029000012,
+    "original_record_sha256": "02a20803daee28ff21c35f40f20732bfc9ac6992a8cfa3f62b4cae14b60e330b"
+  },
+  {
+    "id": "stride__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "042081a0b7ae89625ca640d88e6990037b99377067d3c451818c5415232ec4d5",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5139054999999644,
+    "original_record_sha256": "b1d67fbc1da0831193041f247b4bd4c84e467ef2f5aec6a671797f706f79c9bb"
+  },
+  {
+    "id": "two_stage__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "8a8a6119f06ca1b449d71b5ae93e6e65c81e9f6059d0cafc06cdb6a68fd1d997",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "ERROR"
+    },
+    "seconds": 19025.8300141,
+    "original_record_sha256": "7209f90d228dfe64af5924316b98d2695b9047a85386c1c157e1399e248cffc7"
+  },
+  {
+    "id": "two_stage__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "1dc5055d97aeb7b429ae174d96d1755753d230a446af5605f8dfbaa690d415d4",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.5253197999991244,
+    "original_record_sha256": "13781234f3d03ec82cc9b301ba019e59e11a97727ebd81f1423b2ff128c8ed4c"
+  }
+]

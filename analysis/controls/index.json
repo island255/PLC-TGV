@@ -1,0 +1,87 @@
+{
+  "dataset": 3,
+  "role": "normal control",
+  "license": "CC-BY-NC-4.0",
+  "controls": {
+    "nonzero__normal": {
+      "source": {
+        "path": "controls/nonzero__normal/original.st",
+        "sha256": "acc14aabaaf2de3565c72134c237dafb0781e78bcdf3e9cf2490b53c7b56d3d2"
+      },
+      "properties": {
+        "path": "controls/nonzero__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "stride__normal": {
+      "source": {
+        "path": "controls/stride__normal/original.st",
+        "sha256": "042081a0b7ae89625ca640d88e6990037b99377067d3c451818c5415232ec4d5"
+      },
+      "properties": {
+        "path": "controls/stride__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "conditional__normal": {
+      "source": {
+        "path": "controls/conditional__normal/original.st",
+        "sha256": "7d169ba5835abb78e1017c49cfddbbfbfa77805ecbc898685431bef803fa6665"
+      },
+      "properties": {
+        "path": "controls/conditional__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "reset__normal": {
+      "source": {
+        "path": "controls/reset__normal/original.st",
+        "sha256": "f02c8b44a1838aae2052a63e7cd97a7b47d302e870163175d57509cebb000ccf"
+      },
+      "properties": {
+        "path": "controls/reset__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "nested__normal": {
+      "source": {
+        "path": "controls/nested__normal/original.st",
+        "sha256": "8b356501a8eecfffa4f266a4bc07d9833654f1e123142988392fd6ab2211a6a7"
+      },
+      "properties": {
+        "path": "controls/nested__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "countdown__normal": {
+      "source": {
+        "path": "controls/countdown__normal/original.st",
+        "sha256": "26c834bd45c3a9dcd63aa9809f49ac433b7e2429d3650b64128ed1903670c4ea"
+      },
+      "properties": {
+        "path": "controls/countdown__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "extra_state__normal": {
+      "source": {
+        "path": "controls/extra_state__normal/original.st",
+        "sha256": "32beeaa31395b7b3e74d58297c8c2970eb9147ab4860005566f9318b08400f2f"
+      },
+      "properties": {
+        "path": "controls/extra_state__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    },
+    "two_stage__normal": {
+      "source": {
+        "path": "controls/two_stage__normal/original.st",
+        "sha256": "1dc5055d97aeb7b429ae174d96d1755753d230a446af5605f8dfbaa690d415d4"
+      },
+      "properties": {
+        "path": "controls/two_stage__normal/props.json",
+        "sha256": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      }
+    }
+  }
+}

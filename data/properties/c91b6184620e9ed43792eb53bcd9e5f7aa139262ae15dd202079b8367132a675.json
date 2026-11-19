@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "id": "P1",
+      "kind": "invariant",
+      "expression": "!(pump && level_high)",
+      "justification": "Overflow guard; here evaluated across counter-fuse widths to measure detection cost vs. scale."
+    }
+  ]
+}

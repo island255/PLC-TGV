@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "id": "P1",
+      "kind": "invariant",
+      "expression": "!(pump && hazard)"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "conditional__normal",
+    "cfg_nodes": 14,
+    "cfg_edges": 17,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 133118,
+      "transitions": 1064944,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "countdown__normal",
+    "cfg_nodes": 12,
+    "cfg_edges": 14,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 67535,
+      "transitions": 270140,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "extra_state__normal",
+    "cfg_nodes": 14,
+    "cfg_edges": 16,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 133117,
+      "transitions": 532468,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "nested__normal",
+    "cfg_nodes": 14,
+    "cfg_edges": 17,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 133118,
+      "transitions": 1064944,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "nonzero__normal",
+    "cfg_nodes": 12,
+    "cfg_edges": 14,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 135023,
+      "transitions": 540092,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "reset__normal",
+    "cfg_nodes": 15,
+    "cfg_edges": 18,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 133118,
+      "transitions": 1064944,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "stride__normal",
+    "cfg_nodes": 12,
+    "cfg_edges": 14,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 133119,
+      "transitions": 532476,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  },
+  {
+    "id": "two_stage__normal",
+    "cfg_nodes": 18,
+    "cfg_edges": 22,
+    "requirements": [
+      "P1"
+    ],
+    "property_variables": [
+      "hazard",
+      "pump"
+    ],
+    "property_dependencies": [
+      "hazard",
+      "pump",
+      "start"
+    ],
+    "state_limit": 270000,
+    "finite_state_audit": {
+      "verdict": "SAFE",
+      "reachable_states": 131837,
+      "transitions": 527348,
+      "evidence": "Complete reachable-state closure for the given program and property"
+    }
+  }
+]

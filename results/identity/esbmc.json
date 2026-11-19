@@ -1,0 +1,17 @@
+{
+  "method": "esbmc",
+  "python": "3.10.12",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "runtime_runner": "342416f0b36630b6ae21f9a1a77a91fced905731201e1eb47119c9abcdfda27c",
+  "prepared_runner": "3a1eb005ec986ac56e24011070733c50c42665963c411ebefc97d570682eaab5",
+  "adapter_runner": "30d00013bf84fe93b73dfef77196a89f3b61c1ac93cba57a3bf8cfbbf6642a9f",
+  "manifest": "fa3b8b741712026a2f7781812fc720df2e6d292abc88a391dfd67f42a220c885",
+  "structure_manifest": "f8ae61890d5aa71400474a7f7c6a656bfb10bb4f0410864e739c6df8933ff161",
+  "timing": "wall time including per-task process startup, raw input adaptation, and primary decision",
+  "per_case_time_limit": null,
+  "existing_adapter_sources": {
+    "esbmc_st_adapter_20261024/adapter.py": "0b8461973c12cd5cc27b4f8eaa67a9b737c0ddcf75f47d42c04380b731904fe8",
+    "author_llb_repro_20261023/run_author.py": "74424a22e969a9f581b3cae427bd3cb18950629ea4c9738da0dfc9a91956a0bc"
+  },
+  "binary_sha256": "7ad978b2d4e72154b9c74b8b3d40bd25f5f1993eafd159c0e470d7d9056b84f0"
+}

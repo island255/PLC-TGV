@@ -1,0 +1,4 @@
+properties:
+  - id: P0
+    kind: invariant
+    expression: "OUT_A || !OUT_A"

@@ -1,0 +1,4 @@
+properties:
+  - id: MX
+    kind: mutual_exclusion
+    variables: [OUT_A, OUT_B]

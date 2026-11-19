@@ -1,0 +1,444 @@
+[
+  {
+    "id": "conditional__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "21faaa457c91c8f47dfd112293e85f1eaf54437133d951cd6a8533ae1612e568",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "b6e77fc6b73e18367a8f74a0c9c136b84774e8135c039f2206782a3e60438683"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 1.0147098999999997,
+    "original_record_sha256": "354a8bf61e98bfcdc14005c133b64df1db54103eede0dcd4888c90470e85bb0f"
+  },
+  {
+    "id": "conditional__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "7d169ba5835abb78e1017c49cfddbbfbfa77805ecbc898685431bef803fa6665",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.7775251999999995,
+    "original_record_sha256": "85d672b7b32807456a743553f79be6dfb8ea8921e1996310e05205edee2f25be"
+  },
+  {
+    "id": "countdown__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "6164ca8bcf7dccc1a98d8ee59ffc6d76ffa2150ac6dacdc139a1f7bd6d7f529a",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "3ce3b003a804c559ce0e18010efeccb397bdc2ab2eb4a2a34c07e2fdb53e7177"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.9077863999999991,
+    "original_record_sha256": "05e4356a2600f2a55325b8fb7d1acbeb296b7fcedfa7f67523ac26a8ddd2e38b"
+  },
+  {
+    "id": "countdown__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "26c834bd45c3a9dcd63aa9809f49ac433b7e2429d3650b64128ed1903670c4ea",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.787844800000002,
+    "original_record_sha256": "f28bc6e0c4c1634a0a695fe843bbbda25356ca1555d427c93cd1979691367953"
+  },
+  {
+    "id": "ext__retained_000",
+    "dataset": 3,
+    "hashes": {
+      "source": "b1db6478bc5e99acd8d223ba00f55c1b28b14573d3a9fd9b05941cc954fde8b7",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "b24e19ae33c7b94c34b3881fe8018e3bc355802475e21cf5bb84b5803ca6d1e7",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "71bdf7cdf42ee48be11e36b6d2bbab837193a6efa0758ca6fdc8e3f004449b5e"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8360200000000001,
+    "original_record_sha256": "a4b407ed4712ac9cc140517cfaae771d831ba1053cbe3217205bdbde69ee4741"
+  },
+  {
+    "id": "ext__retained_001",
+    "dataset": 3,
+    "hashes": {
+      "source": "7fa5336d6122db560d6b29c64035db6c70d98b62bb5dc99b3b6c1f3ce49d3f24",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "20d185de39ee9b8f5647658ec8808200ee08f33e24ab045a97b1a73d34c5ed43",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "b934bc3ed3282e274e60dbdaa82f754651d914d89d797201ec367bdc26e679dc"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.9408833999999999,
+    "original_record_sha256": "e854287e8da9d818efd4eebd8b0c5275e866c25452ac93224bf40da93770d598"
+  },
+  {
+    "id": "ext__retained_002",
+    "dataset": 3,
+    "hashes": {
+      "source": "7772e5b106b2abb7201e121e4d3e1a2c06d887c0243960ab02da9f2b7be73d1c",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "b62d3e11ba4ee3e93a6a4e313a5ccf148fe62db84837efd17aae5f4164651723",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "88f5e703857ac7657e10f2fcdb1a5258040188e4d3c6b9ce83fa03628aa006ca"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 1.4011856999999999,
+    "original_record_sha256": "388fac4ff33b815e1ffcd9f0aa8c131a33468f21700e4917ebaa1512e465e7d2"
+  },
+  {
+    "id": "ext__retained_003",
+    "dataset": 3,
+    "hashes": {
+      "source": "a392ba26859414f31e10ca702e2b71252b12b8b23b728acb4877a4575df766b2",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "927d3f9c65c011a30ecfb890b6ce445bc857da7010b732bda08e515e3fb23dc1",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "077a53004f7c7413ae5a195d2eaea7f4236c9e6677a7d97bbd04ae3332aa5b90"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 3.1179705,
+    "original_record_sha256": "daa3329f38ec87212b275ca2c562301761ea77be8cf7a2981c3c34b4834cbc2c"
+  },
+  {
+    "id": "ext__retained_004",
+    "dataset": 3,
+    "hashes": {
+      "source": "da458368ae225c8a39a8e7d1d36c356b51cacfdd3200c429690c7335c7ae839f",
+      "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+      "native_source": "c259eb30f6aa76437d0d7b7a7c082f3836469af46b9509a3dc12aebdb3521764",
+      "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "fb19775a2152399f3e895017ef3f22a46a5f4c552fae8ddd158370d872e8c506"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 5.3970415,
+    "original_record_sha256": "8c72cdeeee5b93a2ed3d2acb43432a3ab140c6a3abc10e65bc18a8e02ef0613d"
+  },
+  {
+    "id": "extra_state__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "cd50eb62387b18d65d5b6dee8fa749d20e0753ca6e81501a7c85ed95b7f85cd1",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "485e4297f6c1a9c3280e48d8eae1839c8e332fac0ac3ec7f73f6f3944c5e6424"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.973903700000001,
+    "original_record_sha256": "6482c8bf17b2d3a9358bd10b348582aefea21eab878c5a99480049717661aee8"
+  },
+  {
+    "id": "extra_state__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "32beeaa31395b7b3e74d58297c8c2970eb9147ab4860005566f9318b08400f2f",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.7891199999999969,
+    "original_record_sha256": "3d6eb8fd6d3ac43947fc8a838b05493a008bf7d709b221444c57335ba3586fc3"
+  },
+  {
+    "id": "nested__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "82174097eb0b3be2dbb4bcdce04238c9598291627238039ab2ea269fd9f65aea",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "b6e77fc6b73e18367a8f74a0c9c136b84774e8135c039f2206782a3e60438683"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.9374339999999961,
+    "original_record_sha256": "c1b48f3c8945c7e26a5c6d5da96cc5f5dddaaed833ad26eb7766c9a526360d0e"
+  },
+  {
+    "id": "nested__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "8b356501a8eecfffa4f266a4bc07d9833654f1e123142988392fd6ab2211a6a7",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8306155000000004,
+    "original_record_sha256": "40325e1c51a56fa9cd9b657065fc0dc9b5e417b8aa4dda415096675cc3f78a65"
+  },
+  {
+    "id": "nonzero__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "fa7b216eb4cc9f5c9d2dea01e03b8df7b5e1cf98a678cbd934f77b2da9bb9dc7",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "af57f36cad5957fc800edcdfac8aa5922cc8bf7b18a2f4740f87a668fe93e53b"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 1.0489583000000025,
+    "original_record_sha256": "823a7d47d662891b2ac4ba52d96c54f0d18e3ac8f41eff3fafc8f369b942976b"
+  },
+  {
+    "id": "nonzero__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "acc14aabaaf2de3565c72134c237dafb0781e78bcdf3e9cf2490b53c7b56d3d2",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8016028999999989,
+    "original_record_sha256": "5eeaf27c5550356b8bc8785bf517eec97cea6d9821b55a9655ce96e3a852aae7"
+  },
+  {
+    "id": "reset__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "fd603c1057f20506866b4266c54870fb90e44022301d35b6429293014f292830",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "c6f8e761d0a12c0ae4acc120024e6a6cfa46648753934d301031938a9dd56d5f"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.9521372000000028,
+    "original_record_sha256": "6e18a5b86831901bcb918e492a56139cc345fe89dfe0ddfb7ac63af0a0d190ca"
+  },
+  {
+    "id": "reset__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "f02c8b44a1838aae2052a63e7cd97a7b47d302e870163175d57509cebb000ccf",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.7972473000000022,
+    "original_record_sha256": "1a7af0ff00b418294f2153bd7f0fb2294be1e77d43b4c7ec2ae7035a9ff0fdc0"
+  },
+  {
+    "id": "stride__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "34c4ef4ce940758d683ba09d902be14b71d29e5298180922959f34ab87f94cba",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "21665523f7b6af89632df4c2236a33b6c977982bba610abf43962a6b6df0cf9a"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.9212069000000014,
+    "original_record_sha256": "5b18dee61c64b41d44d7a3ca9f476ff3c47d2a25eec62ad918e474e8c999db68"
+  },
+  {
+    "id": "stride__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "042081a0b7ae89625ca640d88e6990037b99377067d3c451818c5415232ec4d5",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8113084000000015,
+    "original_record_sha256": "87bdc538741b8cd3eaa0e728dc34149aa2d05a19d613c39e36f9af8c35849b0e"
+  },
+  {
+    "id": "two_stage__injected_attack",
+    "dataset": 3,
+    "hashes": {
+      "source": "8a8a6119f06ca1b449d71b5ae93e6e65c81e9f6059d0cafc06cdb6a68fd1d997",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "VIOLATION",
+      "generator_candidates": [
+        {
+          "proposal": {
+            "input_schedule": "eff2d268d8dd256e50b41214fb215466b215504385e94b645dc79b78eb082ae6"
+          },
+          "replay": {
+            "confirmed": true
+          }
+        }
+      ],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8820521000000028,
+    "original_record_sha256": "babfbe7bb48660e061001992cd4ca4261f2fb226fadf3c36426abb3144334dd1"
+  },
+  {
+    "id": "two_stage__normal",
+    "dataset": 3,
+    "hashes": {
+      "source": "1dc5055d97aeb7b429ae174d96d1755753d230a446af5605f8dfbaa690d415d4",
+      "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+    },
+    "result": {
+      "verdict": "SAFE",
+      "generator_candidates": [],
+      "symbolic_replays": []
+    },
+    "seconds": 0.8189339999999987,
+    "original_record_sha256": "83a8c14c9acb9e0ecc50adbf2a256a889ab85f522ff6b8641de96d8db504f07a"
+  }
+]

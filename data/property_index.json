@@ -1,0 +1,46 @@
+{
+  "5eb2761fab2a0563ac28f57c565c87e63ecf8cbef099866e00070000cf992ce0": {
+    "path": "data/properties/5eb2761fab2a0563ac28f57c565c87e63ecf8cbef099866e00070000cf992ce0.yaml",
+    "cohorts": [
+      "C1",
+      "C2"
+    ],
+    "tasks": 65
+  },
+  "c7077ea424ab7a378cc19998c06fed759ea6f25ebb302004283dc1eef1901c37": {
+    "path": "data/properties/c7077ea424ab7a378cc19998c06fed759ea6f25ebb302004283dc1eef1901c37.yaml",
+    "cohorts": [
+      "C3"
+    ],
+    "tasks": 156
+  },
+  "7df2c4b9c679b1a25aff9baa0f2410734f71fbe15b532cdad95ac4356d152c07": {
+    "path": "data/properties/7df2c4b9c679b1a25aff9baa0f2410734f71fbe15b532cdad95ac4356d152c07.yaml",
+    "cohorts": [
+      "C3"
+    ],
+    "tasks": 156
+  },
+  "27b995f8c678bd49382eb39c8aaa92b72e7081d22c559800b05debdffda94ff2": {
+    "path": "data/properties/27b995f8c678bd49382eb39c8aaa92b72e7081d22c559800b05debdffda94ff2.yaml",
+    "cohorts": [
+      "C4_dev",
+      "C4_v100"
+    ],
+    "tasks": 600
+  },
+  "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675": {
+    "path": "data/properties/c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675.json",
+    "cohorts": [
+      "delayed"
+    ],
+    "tasks": 5
+  },
+  "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068": {
+    "path": "data/properties/6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068.json",
+    "cohorts": [
+      "counter_update"
+    ],
+    "tasks": 16
+  }
+}

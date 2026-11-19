@@ -1,0 +1,4 @@
+properties:
+  - id: availability_only
+    kind: invariant
+    expression: 'pump || !pump'

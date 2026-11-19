@@ -1,0 +1,269 @@
+{
+  "tasks": [
+    {
+      "id": "ext__retained_000",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_000/original.st",
+      "properties": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_000/props.json",
+      "hashes": {
+        "source": "b1db6478bc5e99acd8d223ba00f55c1b28b14573d3a9fd9b05941cc954fde8b7",
+        "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+        "native_source": "b24e19ae33c7b94c34b3881fe8018e3bc355802475e21cf5bb84b5803ca6d1e7",
+        "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+      },
+      "attack_label": true,
+      "origin": "reused counter_scalability"
+    },
+    {
+      "id": "ext__retained_001",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_001/original.st",
+      "properties": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_001/props.json",
+      "hashes": {
+        "source": "7fa5336d6122db560d6b29c64035db6c70d98b62bb5dc99b3b6c1f3ce49d3f24",
+        "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+        "native_source": "20d185de39ee9b8f5647658ec8808200ee08f33e24ab045a97b1a73d34c5ed43",
+        "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+      },
+      "attack_label": true,
+      "origin": "reused counter_scalability"
+    },
+    {
+      "id": "ext__retained_002",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_002/original.st",
+      "properties": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_002/props.json",
+      "hashes": {
+        "source": "7772e5b106b2abb7201e121e4d3e1a2c06d887c0243960ab02da9f2b7be73d1c",
+        "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+        "native_source": "b62d3e11ba4ee3e93a6a4e313a5ccf148fe62db84837efd17aae5f4164651723",
+        "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+      },
+      "attack_label": true,
+      "origin": "reused counter_scalability"
+    },
+    {
+      "id": "ext__retained_003",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_003/original.st",
+      "properties": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_003/props.json",
+      "hashes": {
+        "source": "a392ba26859414f31e10ca702e2b71252b12b8b23b728acb4877a4575df766b2",
+        "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+        "native_source": "927d3f9c65c011a30ecfb890b6ce445bc857da7010b732bda08e515e3fb23dc1",
+        "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+      },
+      "attack_label": true,
+      "origin": "reused counter_scalability"
+    },
+    {
+      "id": "ext__retained_004",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_004/original.st",
+      "properties": "源码工作/方法与实验/matched_expansion_20261021/prepared/retained_004/props.json",
+      "hashes": {
+        "source": "da458368ae225c8a39a8e7d1d36c356b51cacfdd3200c429690c7335c7ae839f",
+        "properties": "c91b6184620e9ed43792eb53bcd9e5f7aa139262ae15dd202079b8367132a675",
+        "native_source": "c259eb30f6aa76437d0d7b7a7c082f3836469af46b9509a3dc12aebdb3521764",
+        "native_properties": "3c425fe0524ecb0c22c9e603ac81392727f0af5a7c8682f55a015b1414e8203c"
+      },
+      "attack_label": true,
+      "origin": "reused counter_scalability"
+    },
+    {
+      "id": "nonzero__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/nonzero__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/nonzero__normal/props.json",
+      "hashes": {
+        "source": "acc14aabaaf2de3565c72134c237dafb0781e78bcdf3e9cf2490b53c7b56d3d2",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "nonzero__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/nonzero__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/nonzero__injected_attack/props.json",
+      "hashes": {
+        "source": "fa7b216eb4cc9f5c9d2dea01e03b8df7b5e1cf98a678cbd934f77b2da9bb9dc7",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "stride__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/stride__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/stride__normal/props.json",
+      "hashes": {
+        "source": "042081a0b7ae89625ca640d88e6990037b99377067d3c451818c5415232ec4d5",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "stride__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/stride__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/stride__injected_attack/props.json",
+      "hashes": {
+        "source": "34c4ef4ce940758d683ba09d902be14b71d29e5298180922959f34ab87f94cba",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "conditional__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/conditional__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/conditional__normal/props.json",
+      "hashes": {
+        "source": "7d169ba5835abb78e1017c49cfddbbfbfa77805ecbc898685431bef803fa6665",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "conditional__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/conditional__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/conditional__injected_attack/props.json",
+      "hashes": {
+        "source": "21faaa457c91c8f47dfd112293e85f1eaf54437133d951cd6a8533ae1612e568",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "reset__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/reset__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/reset__normal/props.json",
+      "hashes": {
+        "source": "f02c8b44a1838aae2052a63e7cd97a7b47d302e870163175d57509cebb000ccf",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "reset__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/reset__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/reset__injected_attack/props.json",
+      "hashes": {
+        "source": "fd603c1057f20506866b4266c54870fb90e44022301d35b6429293014f292830",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "nested__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/nested__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/nested__normal/props.json",
+      "hashes": {
+        "source": "8b356501a8eecfffa4f266a4bc07d9833654f1e123142988392fd6ab2211a6a7",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "nested__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/nested__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/nested__injected_attack/props.json",
+      "hashes": {
+        "source": "82174097eb0b3be2dbb4bcdce04238c9598291627238039ab2ea269fd9f65aea",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "countdown__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/countdown__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/countdown__normal/props.json",
+      "hashes": {
+        "source": "26c834bd45c3a9dcd63aa9809f49ac433b7e2429d3650b64128ed1903670c4ea",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "countdown__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/countdown__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/countdown__injected_attack/props.json",
+      "hashes": {
+        "source": "6164ca8bcf7dccc1a98d8ee59ffc6d76ffa2150ac6dacdc139a1f7bd6d7f529a",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "extra_state__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/extra_state__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/extra_state__normal/props.json",
+      "hashes": {
+        "source": "32beeaa31395b7b3e74d58297c8c2970eb9147ab4860005566f9318b08400f2f",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "extra_state__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/extra_state__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/extra_state__injected_attack/props.json",
+      "hashes": {
+        "source": "cd50eb62387b18d65d5b6dee8fa749d20e0753ca6e81501a7c85ed95b7f85cd1",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "two_stage__normal",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/two_stage__normal/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/two_stage__normal/props.json",
+      "hashes": {
+        "source": "1dc5055d97aeb7b429ae174d96d1755753d230a446af5605f8dfbaa690d415d4",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": false,
+      "origin": "author-generated controlled case"
+    },
+    {
+      "id": "two_stage__injected_attack",
+      "dataset": 3,
+      "source": "源码工作/方法与实验/review_revision_20261105/suite_v1/two_stage__injected_attack/original.st",
+      "properties": "源码工作/方法与实验/review_revision_20261105/suite_v1/two_stage__injected_attack/props.json",
+      "hashes": {
+        "source": "8a8a6119f06ca1b449d71b5ae93e6e65c81e9f6059d0cafc06cdb6a68fd1d997",
+        "properties": "6a9730635a328b4ae2871eea230d5d6f4eb5520ce4d7c5de67ec7284bec4c068"
+      },
+      "attack_label": true,
+      "origin": "author-generated controlled case"
+    }
+  ],
+  "count": 21,
+  "reused": 5,
+  "author_generated": 16
+}
